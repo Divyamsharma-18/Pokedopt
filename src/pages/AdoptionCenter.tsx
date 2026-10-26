@@ -163,7 +163,7 @@ const AdoptionCenter: React.FC = () => {
                 <p className="text-white text-sm md:text-base mb-4 md:mb-8">Rescued Pokémon are waiting for your love and care. Adopt them, feed them, and help them grow stronger!</p>
               </div>
               
-              {/* Fairy Tuba component - now always showing on the right, even on small screens */}
+              {/* Fairy component - now always showing on the right, even on small screens */}
               <div className="order-1 md:order-2 flex justify-end">
                 {isAuthenticated && <FairyTuba />}
               </div>

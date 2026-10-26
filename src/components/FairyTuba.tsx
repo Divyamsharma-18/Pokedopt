@@ -66,7 +66,7 @@ const FairyTuba: React.FC = () => {
       
       toast({
         title: "Coin Collected!",
-        description: "You received 1 coin from Fairy Tuba.",
+        description: "You received 1 coin from Miss Fairy!",
       });
       
       // Play coin sound
@@ -95,7 +95,7 @@ const FairyTuba: React.FC = () => {
       >
         <img 
           src="/fairy.png" 
-          alt="Fairy Tuba"
+          alt="Miss Fairy!"
           className="w-full h-full object-cover"
         />
         {timeLeft && (
@@ -104,7 +104,7 @@ const FairyTuba: React.FC = () => {
           </div>
         )}
       </div>
-      <span className="text-xs text-center mt-1 text-blue-300 pokemon-font">Fairy Tuba</span>
+      <span className="text-xs text-center mt-1 text-blue-300 pokemon-font">Miss Fairy</span>
 
       <FairyTubaDialog
         isOpen={isDialogOpen}

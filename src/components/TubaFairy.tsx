@@ -123,7 +123,7 @@ const TubaFairy: React.FC = () => {
       <Dialog open={isOpen} onOpenChange={setIsOpen}>
         <DialogContent className="pixel-card max-w-sm bg-[#102340] text-white border-blue-600">
           <DialogHeader>
-            <DialogTitle className="pokemon-font text-blue-300 text-center">FAIRY TUBA</DialogTitle>
+            <DialogTitle className="pokemon-font text-blue-300 text-center">MISS FAIRY</DialogTitle>
           </DialogHeader>
           
           <div className="flex flex-col items-center py-4">
@@ -133,7 +133,7 @@ const TubaFairy: React.FC = () => {
             
             <DialogDescription className="text-center text-white mb-4">
               {canCollect 
-                ? "Hi I'm fairy Tuba, here's your 1 coin! Do visit after every hour to get more coins, byeee!" 
+                ? "Hi I'm Miss Fairy, here's your 1 coin! Do visit after every hour to get more coins, byeee!" 
                 : `I'll have another coin for you in ${formatTimeRemaining()}. Come back later!`}
             </DialogDescription>
             

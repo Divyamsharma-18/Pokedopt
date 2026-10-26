@@ -32,7 +32,7 @@ exports.collectFairyReward = async (req, res, next) => {
         coins: user.coins,
         lastFairyReward: user.lastFairyReward
       },
-      message: "You received 1 coin from Fairy Tuba!"
+      message: "You received 1 coin from Miss Fairy!"
     });
   } catch (error) {
     next(error);
@@ -71,7 +71,7 @@ exports.collectTubaReward = async (req, res, next) => {
         coins: user.coins,
         lastTubaReward: user.lastTubaReward
       },
-      message: "You received 5 coins from Fairy Tuba!"
+      message: "You received 5 coins from Miss Fairy!"
     });
   } catch (error) {
     next(error);

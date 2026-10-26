@@ -563,7 +563,7 @@ export const mockApiService = {
     
     return {
       user: updatedUser,
-      message: "You received 1 coin from Fairy Tuba!"
+      message: "You received 1 coin from Miss Fairy!"
     };
   },
 
@@ -596,7 +596,7 @@ export const mockApiService = {
     
     return {
       user: updatedUser,
-      message: "You received 5 coins from Fairy Tuba!"
+      message: "You received 5 coins from Miss Fairy!"
     };
   },
 
